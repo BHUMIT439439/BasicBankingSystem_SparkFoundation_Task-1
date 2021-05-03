@@ -1,0 +1,42 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'customer/home.css' %}"/>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <div class="row bg-light py-3" >
+    <div class="col" id="titlecol">
+      Basic Banking System  
+    </div>
+  </div>
+
+  <div class="row flex-column" id="imagerow">
+    <div class="col-4 my-2 mt-5">
+      <a href="{% url 'customer:information' %}"><img class="img-responsive" src="static/i1.png"
+          style="height: 100px; width:155px;"></a>
+      <p>customer___information</p>
+    </div>
+    <div class="col-4 my-2">
+      <a href="{% url 'customer:transfer_money' %}"><img class="img-responsive" src="static/tm1.png" style="height: 100px; width:155px;"></a>
+      <p>Transfer___money</p>
+    </div>
+    <div class="col-4 my-2">
+      <a href="{% url 'customer:contact' %}"><img class="img-responsive" src="static/c1.png" style="height: 100px; width:155px ;"></a>
+      <p>contact___us</p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

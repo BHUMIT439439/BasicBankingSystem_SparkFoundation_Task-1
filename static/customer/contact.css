@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(16, 16, 58);
+}
+.container
+{
+    color: cornsilk;
+}
+#title
+{
+    font-size: 25px;
+}
+#contact
+{
+    font-size: 20px;
+}
+#bankDetail
+{
+    font-size: 20px;
+}

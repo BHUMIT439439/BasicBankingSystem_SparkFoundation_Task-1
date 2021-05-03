@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(16, 16, 58);
+}
+.form-inline
+{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+#customer_list
+{
+    margin-left: 80px;
+    color: cornsilk;
+}
+.media
+{
+    margin-top: 30px;
+}
+.media-body
+{
+    margin-left: 20px;
+}
+#attribute
+{
+    font-size: 18px;
+}
+#attribute a
+{
+    font-size: 18px;
+    font-weight: bold;
+}

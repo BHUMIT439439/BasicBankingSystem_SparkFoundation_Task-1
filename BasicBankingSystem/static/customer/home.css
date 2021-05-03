@@ -1,0 +1,18 @@
+body {
+    background-image: url('{% static "b1.jpg"%}');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #imagerow {
+    margin-left: 1250px;
+  }
+  #titlecol
+  {
+    margin-left: 600px;
+    font-size: xx-large;
+  }
+
+  p {
+  color: beige;
+  }

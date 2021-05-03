@@ -1,0 +1,69 @@
+{% load static %}
+<html>
+
+<head>
+    <title>information</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'customer/contact.css' %}"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-between">
+        <a class="navbar-brand btn btn-outline-info" href="{% url 'customer:home' %}">
+           Banking system
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav">
+                <li class="nav-item ml-2 mt-3 mb-3">
+                <a class="btn btn-outline-info" aria-current="page" href="{% url 'customer:information' %}">Information</a>
+                </li>
+                <li class="nav-item ml-3 mt-3 mb-3">
+                <a class="btn btn-outline-info" aria-current="page" href="{% url 'customer:transfer_money' %}">Transfer</a>
+                </li>
+                <li class="nav-item ml-3 mt-3 mb-3" >
+                <a class="btn btn-outline-info" aria-current="page" href="{% url 'customer:contact' %}">ContactUs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row ">
+            <div class="col-12" id="title">
+                Online Banking System
+            </div>
+        </div>
+        <br>
+        <div class="row mt-3">
+            <div class="col-12">
+                <i class="fa fa-university fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="col mt-3" id="bankDetail">
+                Bank name: xyz bank<br>
+                IFSC code: 123xyz0
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12" id="contact">
+                Contact us
+            </div>
+            <div class="col-12 mt-3">
+                <i class="fa fa-phone-square fa-2x mr-3" aria-hidden="true"></i>+91 99256700912
+            </div>
+            <div class="col-12 mt-3">
+                <i class="fa fa-envelope fa-2x mr-3" aria-hidden="true"></i>xyz@gmail.com
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+</body>
